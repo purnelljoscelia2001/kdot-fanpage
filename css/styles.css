@@ -4,26 +4,56 @@
 
 body {
   text-align: center;
-  position: relative;
   font-family: "DM Serif Display", serif;
-  margin-top: 60px;
+  margin: 0;
+  padding: 0;
   background-color: #ebd0f2;
 }
 
-nav {
-  position: fixed;
-  font-family: "DM Serif Display";
-  background-color: #d99cd9;
-  border: 5rem 2rem 5rem 2rem;
-  padding: 2rem;
-  margin-top: -10px;
-  z-index: 1;
-  width: 6rem;
-  height: 60px;
+header {
+    border-bottom: solid #9f53a0 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+ul li {
+    list-style-type: none;
+    font-size: 1.2rem
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav a {
+    color: black;
+    background-color: #d99cd9;
+    padding: 1rem;
+    border-radius: 10rem;
+}
+
+a:hover {
+    color: white;
+    
+}
+
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 2rem;
+    
+}
+
+
 p {
-  font-family: "DM Serif Display";
   border: 3px double navy;
   background-color: #d99cd9;
   margin: 1.5rem 3rem 1.5rem 3rem;
@@ -35,20 +65,10 @@ h1,h2 {
   font-family: "Kalnia Glaze";
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-  background-color: #a627f5;
-  display: flex;
+.logo img {
+    max-width: 40%;
+    padding: 0;
+    margin: 0;
 }
 
-ul li a {
-  display: block;
-  color: white;
-  width: 6rem;
-  border: 5rem 2rem 5rem 2rem;
-  border-color: whitesmoke;
-  padding: 2rem;
-  text-decoration: none;
-  list-style-position: inside;
-}
+
