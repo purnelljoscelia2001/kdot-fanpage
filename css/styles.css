@@ -2,6 +2,16 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kalnia+Glaze:wght@100..700&display=swap");
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   text-align: center;
   font-family: "DM Serif Display", serif;
@@ -70,4 +80,27 @@ p {
     flex-flow: row wrap;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
 
+.card {
+    border:#9f53a0 solid 5px;
+    border-radius: 10px;
+    background-color: #d99cd9;
+    padding: 2rem;
+    margin: 1.5rem;
+}
+
+.card p {
+    background-color: #ebd0f2;
+}
+
+
+/* @media (min-width:600px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+} */
