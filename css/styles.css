@@ -1,0 +1,54 @@
+/* The more I learn about HTML, CSS, Javasript and more, I will be updating this site to make it look its best. This site isnt just a personal project, its my learning guide. Its not pretty, or complete (haha), but soon it will become a beautiful website and accessible to all.
+ */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kalnia+Glaze:wght@100..700&display=swap");
+
+body {
+  text-align: center;
+  position: relative;
+  font-family: "DM Serif Display", serif;
+  margin-top: 60px;
+  background-color: #ebd0f2;
+}
+
+nav {
+  position: fixed;
+  font-family: "DM Serif Display";
+  background-color: #d99cd9;
+  border: 5rem 2rem 5rem 2rem;
+  padding: 2rem;
+  margin-top: -10px;
+  z-index: 1;
+  width: 6rem;
+  height: 60px;
+}
+
+p {
+  font-family: "DM Serif Display";
+  border: 3px double navy;
+  background-color: #d99cd9;
+  margin: 1.5rem 3rem 1.5rem 3rem;
+  padding: 2rem;
+  margin: 0;
+}
+
+h1,h2 {
+  font-family: "Kalnia Glaze";
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  background-color: #a627f5;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  width: 6rem;
+  border: 5rem 2rem 5rem 2rem;
+  border-color: whitesmoke;
+  padding: 2rem;
+  text-decoration: none;
+  list-style-position: inside;
+}
