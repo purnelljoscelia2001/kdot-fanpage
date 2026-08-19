@@ -16,7 +16,7 @@ body {
   text-align: center;
   font-family: "DM Serif Display", serif;
   margin: 0;
-  padding: 0;
+  padding: 6rem;
   background-color: #ebd0f2;
 }
 
@@ -45,6 +45,8 @@ nav a {
     background-color: #d99cd9;
     padding: 1rem;
     border-radius: 10rem;
+    border:white solid 4px;
+    outline: #9f53a0  solid 4px;
 }
 
 a:hover {
@@ -62,23 +64,34 @@ nav ul {
     
 }
 
-
-p {
-  border-radius: 10px;
-  background-color: #d99cd9;
-  margin: 2rem 5rem 2rem 5rem; 
-  padding: 2rem;
-  
+.button {
+    color: black;
+    background-color: #EBD0F2;
+    border: #9f53a0 solid;
+    padding: 1rem;
+    border-radius: 10rem;
+    font-family: "DM Serif Display";
+    margin: 2rem 0;
 }
+
+.button:hover {
+    color: white;
+}
+
+.button:active {
+    color: #9f53a0;
+}
+
+.divpara {
+    border-radius: 10px;
+    padding: 2rem;
+}
+
 
 .logo img {
     max-width: 40%;
 }
 
-.about-section {
-    display: grid;
-    grid-template-columns: 1fr; 
-}
 
 .grid {
     display: grid;
@@ -87,9 +100,9 @@ p {
 }
 
 .card {
-    border:#9f53a0 outset 5px;
+    border:white solid 4px;
+    outline: #9f53a0  solid 4px;
     border-radius: 10px;
-    box-shadow: 6px 4px 5px #4B274C;
     background-color: #d99cd9;
     padding: 2rem;
     margin: 2.2rem;
@@ -98,6 +111,85 @@ p {
 .card p {
     background-color: #ebd0f2;
 }
+
+iframe {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#about-kendrick {
+    background-color:#d99cd9;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    width: 100%;
+    border:white solid 4px;
+    outline: #9f53a0  solid 4px;
+} 
+
+#about-section {
+    max-width: 50%;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.carousel-slides {
+    position: relative;
+}
+
+.carousel-slide {
+    display: none;
+    margin: 0;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.carousel-slide img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: contain;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.carousel-slide figcaption {
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.carousel-button {
+    color: black;
+    background-color: #EBD0F2;
+    padding: 0.8rem;
+    margin: 0.4rem;
+    font-size: 3rem;
+    max-width: 5rem;
+    max-height: 5rem;
+    line-height: 15px;
+    background-color: #EBD0F2;
+    border: #9f53a0 solid;
+    border-radius: 10rem;
+    padding: 1rem;
+    
+}
+
+.carousel-button:hover {
+    color: white;
+}
+
+.carousel-button:active {
+    color:#9f53a0
+}
+
+
+
 
 
 @media (min-width:650px) {
