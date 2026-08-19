@@ -7,6 +7,7 @@ function showMessageOne() {
     divOne.style.display = "none";
   }
 }
+showMessageOne();
 
 function showMessageTwo() {
     let divTwo = document.querySelector(".message2");
@@ -16,6 +17,7 @@ function showMessageTwo() {
     divTwo.style.display = "none";
   }
 }
+showMessageTwo();
 
 function showMessageThree() {
     let divThree = document.querySelector(".message3");
@@ -25,6 +27,7 @@ function showMessageThree() {
     divThree.style.display = "none";
   }
 }
+showMessageThree();
 
 function showMessageFour() {
     let divFour = document.querySelector(".message4");
@@ -34,6 +37,7 @@ function showMessageFour() {
     divFour.style.display = "none";
   }
 }
+showMessageFour();
 
 function showMessageFive() {
     let divFive = document.querySelector(".message5");
@@ -43,6 +47,7 @@ function showMessageFive() {
     divFive.style.display = "none";
   }
 }
+showMessageFive();
 
 function showMessageSix() {
     let divSix = document.querySelector(".message6");
@@ -52,6 +57,7 @@ function showMessageSix() {
     divSix.style.display = "none";
   }
 }
+showMessageSix();
 
 const slides = document.querySelectorAll(".carousel-slide");
 const nextButton = document.querySelector(".next");
