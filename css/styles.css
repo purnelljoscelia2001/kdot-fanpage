@@ -16,12 +16,18 @@ body {
   text-align: center;
   font-family: "DM Serif Display", serif;
   margin: 0;
-  padding: 6rem;
+  padding: 0;
+  height: 100%;
+  width: 100%;
   background-color: #ebd0f2;
 }
 
 header {
-    border-bottom: solid #9f53a0 10px;
+    border-bottom: double #9f53a0 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    
 }
 
 a {
@@ -51,6 +57,7 @@ nav a {
 
 a:hover {
     color: white;
+     box-shadow: 0 0 7.5px 7.5px #d99cd9;;
     
 }
 
@@ -58,7 +65,7 @@ a:hover {
 nav ul {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 4rem;
     padding-bottom: 2rem;
     
@@ -97,6 +104,18 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    border-bottom: double #9f53a0 10px;
+}
+
+.photo-gallery {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+#photo-gallery {
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
 }
 
 .card {
@@ -108,6 +127,10 @@ nav ul {
     margin: 2.2rem;
 }
 
+.card:hover {
+    box-shadow: 0 0 7.5px 7.5px #d99cd9;
+}
+
 .card p {
     background-color: #ebd0f2;
 }
@@ -117,14 +140,16 @@ iframe {
     width: 100%;
 }
 
-#about-kendrick {
+
+
+#about-kendrick, #impact {
     background-color:#d99cd9;
-    padding: 2rem;
     border-radius: 10px;
     margin-top: 3rem;
-    width: 100%;
+    margin-bottom: 3rem;
     border:white solid 4px;
     outline: #9f53a0  solid 4px;
+    padding: 2rem;
 } 
 
 .carousel {
@@ -137,8 +162,14 @@ iframe {
     outline: #9f53a0  solid 4px;
 }
 
-#about-section {
-    max-width: 50%;
+.about-section, #impact{
+    max-width: 750px;
+    margin: 0 auto;
+    line-height:  1.4;
+}
+
+#impact {
+    margin-top: 5rem;
 }
 
 .carousel {
